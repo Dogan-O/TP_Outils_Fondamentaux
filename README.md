@@ -113,7 +113,7 @@ Niveau 3 : ≈ 116 blocs à hauteur égale. Au-delà, aucun angle ne convient (l
 ## 7. Limites
 
 - Constantes du jeu (gravité, traînée, hauteur des yeux, décalage de la flèche, vitesse max, convention de yaw) issues de nos connaissances, **validées uniquement par le tir en jeu du §5**.
-- `calculateur_arc.py` ne renvoie que le tir tendu : le tir en cloche est étudié dans `analyse.py` mais pas encore affiché par le programme principal. [Ou : « intégré dans calculateur_arc.py », si vous fusionnez `trouver_angles`.]
+- `calculateur_arc.py` ne renvoie que le tir tendu : le tir en cloche est étudié dans `analyse.py` mais pas encore affiché par le programme principal.
 - Pas de dispersion aléatoire des flèches, pas d'obstacles, pas de vent.
 - Un balayage à 0,25° peut manquer deux solutions très proches, près de la portée maximale.
 - Cible à la verticale du joueur ou à moins de 0,5 bloc : refusée.
@@ -121,4 +121,7 @@ Niveau 3 : ≈ 116 blocs à hauteur égale. Au-delà, aucun angle ne convient (l
 
 ## 8. Utilisation de l'IA
 
-Une IA a servi à la structure du code et du README, et à formuler des retours constructifs pour optimiser le travail.
+## 8. Utilisation de l'IA
+
+Une intelligence artificielle a été utilisée comme outil d'assistance au cours du projet, notamment pour la structuration du code et du README, la relecture, l'identification de pistes d'amélioration et la formulation de retours constructifs.
+La conception, les tests et les expérimentations ont été réalisés et vérifiés par les membres du groupe.
