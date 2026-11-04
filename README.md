@@ -33,7 +33,9 @@ Pourquoi la dichotomie et pas Newton : la fonction vient d'une simulation (pas d
 - Bloc à la verticale exacte du joueur : non géré.
 
 ## Validation dans le jeu
-en cours
+![image 1](./images/2026-11-04_22.54.38.png)
+![image 2](./images/coo+arc.png)
+
 
 ## Utilisation de l'IA
 utilisé pour la structure logique du code et du readme.
