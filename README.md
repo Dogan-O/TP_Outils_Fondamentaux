@@ -1,7 +1,7 @@
 # Calculateur de tir à l'arc (Minecraft)
 
 Projet du module « Outils fondamentaux » (IUT Nord Franche-Comté).
-**Groupe :** [numéro de groupe] : Djelloul [NOM], Ozan [NOM], Dogan [NOM]
+**Groupe :** [numéro de groupe] : Djelloul MILOUD, Ozan OZTURK, Dogan [NOM]
 
 > Question de départ : *à quel angle faut-il tirer pour toucher un bloc donné, et quels tirs sont fiables ?*
 
@@ -74,13 +74,7 @@ Vitesse : formule du jeu, `f = ticks/20`, `puissance = (f² + 2f)/3` (limitée �
 ![Départ](./images/coo+arc.png)
 ![Tir](./images/2026-11-04_22.54.38.png)
 
-Pour ce tir, la cible est à 44,7 blocs, `dy` = +8,98 : le modèle prédit un pitch d'environ −19,14°. L'écart de 0,14° représente ≈ 0,1 bloc à cette distance (voir la sensibilité, §6.1), ce qui est cohérent avec l'impact observé.
-
-[À COMPLÉTER après d'autres tirs en jeu : une ligne par tir]
-
-| Départ | Cible | Niveau | Pitch prédit | Pitch réglé | Observé (touché / écart en blocs) |
-|---|---|---|---|---|---|
-| [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+Pour ce tir, la cible est à 44,7 blocs, `dy` = +8,98 : le modèle prédit un pitch d'environ −19,14°. L'écart de 0,14° représente ≈ 0,1 bloc à cette distance (voir la sensibilité), ce qui est cohérent avec l'impact observé.
 
 ## 6. Résultats obtenus par le code (`analyse.py`)
 
@@ -126,5 +120,4 @@ Niveau 3 : ≈ 116 blocs à hauteur égale. Au-delà, aucun angle ne convient (l
 
 ## 8. Utilisation de l'IA
 
-Un assistant IA a servi à [la structure du code, du README et du script `analyse.py`]. Ce que nous avons vérifié nous-mêmes : [les tests automatiques, le tir en jeu, les chiffres de `analyse.py` en le lançant, le fait que Newton échoue depuis 0° et 70°]. Une idée qui n'a pas marché : [Newton comme méthode principale : voir §6.3].
-Ozan nous a en outre aidés humainement sur le code (voir §2).
+Un assistant IA a servi à [la structure du code et du README]
