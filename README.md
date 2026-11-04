@@ -75,6 +75,7 @@ Vitesse : formule du jeu, `f = ticks/20`, `puissance = (f² + 2f)/3` (limitée �
 ![Tir](./images/2026-11-04_22.54.38.png)
 
 Pour ce tir, la cible est à 44,7 blocs, `dy` = +8,98 : le modèle prédit un pitch d'environ −19,14°. L'écart de 0,14° représente ≈ 0,1 bloc à cette distance (voir la sensibilité), ce qui est cohérent avec l'impact observé.
+Les légères différences entre les angles théoriques et ceux visibles sur les captures proviennent de l'imprécision du réglage manuel de la souris. Les coordonnées utilisées restent celles relevées directement dans Minecraft. Le tir atteint néanmoins la cible avec les valeurs calculées, ce qui valide expérimentalement le fonctionnement du modèle pour ce cas précis.
 
 ## 6. Résultats obtenus par le code (`analyse.py`)
 
