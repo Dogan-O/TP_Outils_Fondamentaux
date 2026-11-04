@@ -27,14 +27,19 @@ Exemple : `0 64 0 20 74 40` → yaw −26,8° ; force 3 : pitch −19,00° (tend
 Pourquoi la dichotomie et pas Newton : la fonction vient d'une simulation (pas de dérivée exacte) et le balayage fournit déjà des intervalles avec changement de signe, donc la dichotomie converge toujours.
 
 ## Limites
-- Constantes (gravité, traînée, hauteur des yeux, vitesse max 3, convention de yaw) tirées de ma mémoire : **à vérifier dans le jeu** `[source : à compléter]`.
+- Constantes (gravité, traînée, hauteur des yeux, vitesse max 3, convention de yaw) tirées de ma mémoire : **à vérifier dans le jeu**.
 - Pas de dispersion aléatoire, pas de blocs intermédiaires, pas de vent.
 - Le balayage (pas de 0,5°) peut manquer deux angles très proches (portée maximale).
 - Bloc à la verticale exacte du joueur : non géré.
 
 ## Validation dans le jeu
-![image 1](./images/2026-11-04_22.54.38.png)
-![image 2](./images/coo+arc.png)
+XYZ départ : 0 64 0
+XYZ visé : 20 74 40
+yaw −26,8° ; force 3(force maximum d'un arc) : pitch −19,00°
+![image 1](./images/coo+arc.png)
+![image 2](./images/2026-11-04_22.54.38.png)
+
+le test s'est déroulé avec succès.
 
 
 ## Utilisation de l'IA
