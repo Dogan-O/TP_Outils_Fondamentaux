@@ -1,25 +1,9 @@
-# TP_Outils_Fondamentaux
-
-```text
-README.md
-├── tp
-│   ├── tp1
-│   ├── tp2
-│   ├── tp3
-│   ├── tp4
-│   ├── tp5
-│   └── tp6
-└── projet
-    └── calculateur_arc.py
-```
-
-
-# NUMERIX — assistant de visée à l'arc (Minecraft)
+# CALCULATEUR — assistant de visée à l'arc (Minecraft)
 
 | Dossier | Contenu |
 |---|---|
-| `tp/` | Mes solutions aux TP |
-| `projet/` | Mon projet personnel (`numerix.py`, `tests.py`) |
+| `tp/` | Mes solutions aux TP (tp1-6) |
+| `projet/` | Mon projet personnel (`calculateur_arc.py`) |
 
 ## But
 Je donne la position du joueur et celle du bloc visé ; le programme indique, pour chaque **force** (1, 2 ou 3 : vitesse initiale de la flèche en blocs/tick), le **yaw** et le **pitch** à afficher pour toucher le bloc.
@@ -28,8 +12,7 @@ Je donne la position du joueur et celle du bloc visé ; le programme indique, po
 Python 3.10+, aucune bibliothèque externe.
 ```
 cd projet
-python numerix.py     # puis, par exemple :  0 64 0 20 74 40
-python tests.py
+python calculateur_arc.py     # puis, par exemple :  0 64 0 20 74 40
 ```
 Saisie : `x y z` du joueur (pieds), puis `x y z` du bloc. Ligne vide pour quitter.
 
