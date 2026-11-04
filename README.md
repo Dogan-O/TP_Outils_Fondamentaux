@@ -1,7 +1,7 @@
 # Calculateur de tir à l'arc (Minecraft)
 
 Projet du module « Outils fondamentaux » (IUT Nord Franche-Comté).
-**Groupe :** [numéro de groupe] : Djelloul MILOUD, Ozan OZTURK, Dogan [NOM]
+**Groupe :**  : Djelloul MILOUD, Ozan OZTURK, Dogan OZDEMIR
 
 > Question de départ : *à quel angle faut-il tirer pour toucher un bloc donné, et quels tirs sont fiables ?*
 
