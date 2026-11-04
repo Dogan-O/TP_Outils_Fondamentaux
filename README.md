@@ -1,7 +1,7 @@
 # Calculateur de tir à l'arc (Minecraft)
 
 Projet du module « Outils fondamentaux » (IUT Nord Franche-Comté).
-**Groupe :**  : Djelloul MILOUD, Ozan OZTURK, Dogan OZDEMIR
+**Groupe :**  Djelloul MILOUD, Ozan OZTURK, Dogan OZDEMIR
 
 > Question de départ : *à quel angle faut-il tirer pour toucher un bloc donné, et quels tirs sont fiables ?*
 
@@ -28,7 +28,7 @@ Python 3.10+, aucune bibliothèque externe.
 cd projet
 python calculateur_arc.py          # programme interactif
 python calculateur_arc.py --test   # tests automatiques
-python analyse.py                  # études du §6 (tir en cloche, sensibilité, portée, Newton)
+python analyse.py                  # études du tir en cloche, sensibilité, portée, Newton
 ```
 
 Le programme demande `X Y Z` du joueur (coordonnées F3, pieds), `X Y Z` de la cible, et si la cible est un bloc entier (réponse par défaut : oui, il vise alors le centre, +0,5 sur chaque coordonnée). Virgule ou point acceptés.
@@ -112,14 +112,13 @@ Niveau 3 : ≈ 116 blocs à hauteur égale. Au-delà, aucun angle ne convient (l
 
 ## 7. Limites
 
-- Constantes du jeu (gravité, traînée, hauteur des yeux, décalage de la flèche, vitesse max, convention de yaw) issues de nos connaissances, **validées uniquement par le tir en jeu du §5**.
+- Constantes du jeu (gravité, traînée, hauteur des yeux, décalage de la flèche, vitesse max, convention de yaw) issues de nos connaissances, **validées uniquement par le tir en jeu du test**.
 - `calculateur_arc.py` ne renvoie que le tir tendu : le tir en cloche est étudié dans `analyse.py` mais pas encore affiché par le programme principal.
 - Pas de dispersion aléatoire des flèches, pas d'obstacles, pas de vent.
 - Un balayage à 0,25° peut manquer deux solutions très proches, près de la portée maximale.
 - Cible à la verticale du joueur ou à moins de 0,5 bloc : refusée.
 - Un seul tir validé en jeu à ce jour.
 
-## 8. Utilisation de l'IA
 
 ## 8. Utilisation de l'IA
 
