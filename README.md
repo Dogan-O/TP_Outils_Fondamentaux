@@ -121,4 +121,4 @@ Niveau 3 : ≈ 116 blocs à hauteur égale. Au-delà, aucun angle ne convient (l
 
 ## 8. Utilisation de l'IA
 
-Un assistant IA a servi à [la structure du code et du README]
+Une IA a servi à la structure du code et du README, et à formuler des retours constructifs pour optimiser le travail.
