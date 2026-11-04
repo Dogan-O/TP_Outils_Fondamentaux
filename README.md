@@ -33,7 +33,7 @@ Pourquoi la dichotomie et pas Newton : la fonction vient d'une simulation (pas d
 - Bloc à la verticale exacte du joueur : non géré.
 
 ## Validation dans le jeu
-> À compléter après essais : scénario, force et angles utilisés, résultat, écart observé.
+en cours
 
 ## Utilisation de l'IA
-> À compléter honnêtement : ce que Claude a fait, ce que j'ai relu, testé, modifié et compris moi-même.
+utilisé pour la structure logique du code et du readme.
