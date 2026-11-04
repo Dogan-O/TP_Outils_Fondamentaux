@@ -16,7 +16,7 @@ python calculateur_arc.py     # puis, par exemple :  0 64 0 20 74 40
 ```
 Saisie : `x y z` du joueur (pieds), puis `x y z` du bloc. Ligne vide pour quitter.
 
-Exemple : `0 64 0 20 74 40` → yaw −26,8° ; force 3 : pitch −19,00° (tendu) ou −75,88° (cloche) ; force 2 : pitch −34,95° ; force 1 : impossible.
+Exemple : `0 64 0 20 74 40` → yaw −26,8° ; force 3 : pitch −19,00° (tendu); force 2 : pitch −34,95° ; force 1 : impossible.
 
 ## Méthode
 1. **Géométrie** : la 3D est ramenée à un plan vertical (distance horizontale `d`, dénivelé `dy`, yaw par `atan2`).
