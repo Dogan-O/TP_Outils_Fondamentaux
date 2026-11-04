@@ -11,8 +11,8 @@ Je donne la position du joueur et celle du bloc visé ; le programme indique, po
 ## Lancer
 Python 3.10+, aucune bibliothèque externe.
 ```
-cd projet
-python calculateur_arc.py     # puis, par exemple :  0 64 0 20 74 40
+python calculateur_arc.py
+# puis, par exemple :  0 64 0 20 74 40
 ```
 Saisie : `x y z` du joueur (pieds), puis `x y z` du bloc. Ligne vide pour quitter.
 
